@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/png">
+	<title>Bocabiolistics</title>
+	<link rel="stylesheet" href="bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,500,700,800%7CPTTeko:400,500,700" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+	<body>
+		<!-- header -->
+		<header class="header">
+			<div class="clearfix top-line">
+				<div class="container-fluid">
+					<div class="logo-holder">
+						<a class="navbar-brand" href="#">
+							<img src="images/logo.png" alt="image description">
+						</a>
+					</div>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+			</div>
+			<nav class="navbar" id="header-nav">
+				<div class="container-fluid">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav list-inline">
+							<li>
+								<a href="#">HOME</a>
+							</li>
+							<li>
+								<a href="#">COMPANY OVERVIEW</a>
+							</li>
+							<li class="dropdown" id="nav-drop">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS & SERVICES  <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">INVENTORY</a>
+							</li>
+							<li>
+								<a href="#">product life cycle</a>
+							</li>
+							<li class="active">
+								<a href="#">news & media</a>
+							</li>
+							<li>
+								<a href="#">CONTACT US</a>
+							</li>
+						</ul>
+						<div class="search-holder dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="icon-search"></span></a>
+							<div class="dropdown-menu">
+								<form class="navbar-form navbar-left">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Search">
+									</div>
+									<button type="submit" class="btn btn-primary"><span class="icon-search"></span></button>
+								</form>
+							</div>
+						</div>
+						<ul class="list-icon list-inline">
+							<li>
+								<a href="#">
+									<span class="icon-facebook"></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="icon-twitter"></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="icon-linkedin"></span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="icon-youtube"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- main -->
+		<main  class="main">
+			<section class="hero-section" style="background-image: url(images/img-01.jpg);">
+				<div class="container-fluid">
+					<h1>NEWS & VIDEOS</h1>
+				</div>
+			</section>
+			<section class="content-section">
+				<div class="container-fluid">
+					<div class="heading">
+						<h3>WHAT'S BEEN HAPPENING LATELY AT BOCA BIO?</h3>
+					</div>
+					<div class="thumbnail lg-thumbnail">
+						<a class="top-section" href="#">
+							<div class="image-holder" style="background-image: url(images/img-03.jpg);"></div>
+							<div class="date-holder">
+								<span>22 apr 2018</span>
+							</div>
+						</a>
+						<div class="caption">
+							<h5><a href="#">BOCA BIOLISTICS INVITES PARTICIPANTS TO JOIN ZIKA VIRUS STUDY</a></h5>
+							<p>Boca Biolistics is inviting members of the public to participate in a study, collecting biological specimens to aide in researching the Zika virus. Boca Biolistics, LLC is looking for volunteers from three groups of people to participate: People who have symptoms of Zika virus, people who don’t have </p>
+						</div>
+					</div>
+					<div class="row" id="lazyload">
+					</div>
+				</div>
+			</section>
+
+			<section class="subscribe-section">
+				<div class="container-fluid">
+					<div class="holder">
+						<h2>NEWSLETTER SIGN UP </h2>
+						<form id="subscribe_form" method="post" action="#">
+							<div class="input-holder">
+								<div class="form-group">
+									<input class="form-control" type="text" id="subscribe_name" name="name" placeholder="First name">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="email" id="subscribe_email" name="email" placeholder=" Email Address">
+								</div>
+								<button class="btn btn-primary" type="submit" id="subscribe_submit">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- footer -->
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="logo-holder">
+					<a class="navbar-brand" href="#">
+						<img src="images/logo-white.png" alt="image description">
+					</a>
+				</div>
+				<div class="row center-line">
+					<div class="col-md-5">
+						<div class="row">
+							<div class="map col-sm-4">
+								<h4 class="title">SITE MAP</h4>
+								<ul class="list-unstyled">
+									<li>
+										<a href="#">HOME</a>
+									</li>
+									<li>
+										<a href="#">COMPANY OVERVIEW</a>
+									</li>
+									<li>
+										<a href="#">PRODUCTS & SERVICES</a>
+									</li>
+									<li>
+										<a href="#">INVENTORY</a>
+									</li>
+									<li>
+										<a href="#">CONTACT US</a>
+									</li>
+									<li>
+										<a href="#">LATEST NEWS</a>
+									</li>
+									<li>
+										<a href="#">VIDEO & MEDIA</a>
+									</li>
+								</ul>
+							</div>
+							<div class="product col-sm-8">
+								<h4 class="title">PRODUCTS & SERVICES</h4>
+								<ul class="list-unstyled">
+									<li>
+										<a href="#">IVD BIO SPECIMENS</a>
+									</li>
+									<li>
+										<a href="#">PRODUCT CATALOG</a>
+									</li>
+									<li>
+										<a href="#">IVD CRO SERVICES</a>
+									</li>
+									<li>
+										<a href="#">ONCOLOGY SPECIMENS</a>
+									</li>
+									<li>
+										<a href="#">RARE SPECIMENS REGULATORY SERVICES</a>
+									</li>
+									<li>
+										<a href="#">CUSTOM IVD COLLECTION KITS</a>
+									</li>
+									<li>
+										<a href="#">B2R</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="right-col col-md-5">
+						<div class="row">
+							<div class="contact col-sm-6">
+								<h4 class="title">Contact</h4>
+								<ul class="contact-list  list-unstyled">
+									<li class="location">
+										<a class="company-name" href="#">
+											<span class="icon icon-placeholder"></span>Boca Biolistics
+										</a>
+										<address>5001 NW 13TH AVENUE, BAY H POMPANO BEACH, FL 33064</address>
+									</li>
+									<li class="telephone">
+										<a href="#"><span class="icon icon-phone"></span>954-449-6126</a>
+									</li>
+									<li>
+										<a href="&#083;&#065;&#076;&#069;&#083;&#064;&#066;&#079;&#067;&#065;&#066;&#073;&#079;&#046;&#067;&#079;&#077;"><span class="icon icon-mail"></span>&#083;&#065;&#076;&#069;&#083;&#064;&#066;&#079;&#067;&#065;&#066;&#073;&#079;&#046;&#067;&#079;&#077;</a>
+									</li>
+									<li>
+										<a href="#"><span class="icon icon-skype"></span>OUR SKYPE NAME IS BOCABIO</a>
+									</li>
+								</ul>
+							</div>
+							<div class="follow  col-md-6 col-xs-12 ">
+								<h4 class="title">FOLLOW US</h4>
+								<ul class="list-icon list-inline">
+									<li>
+										<a href="#">
+											<span class="icon-facebook"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="icon-twitter"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="icon-linkedin"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="icon-youtube"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<span>Copyright © 2017 Boca Biolistics. All rights reserved.</span>
+				</div>
+			</div>
+		</footer>
+		<script src="js/script.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>
