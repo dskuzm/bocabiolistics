@@ -9,7 +9,8 @@
 	<link rel="stylesheet" href="bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/icomoon.css">
-	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Teko" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,500,700,800%7CPTTeko:400,500,700" rel="stylesheet">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 	<body>
@@ -30,7 +31,7 @@
 					</button>
 				</div>
 			</div>
-			<nav class="navbar">
+			<nav class="navbar" id="header-nav">
 				<div class="container-fluid">
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav list-inline">
@@ -46,10 +47,6 @@
 									<li><a href="#">Action</a></li>
 									<li><a href="#">Another action</a></li>
 									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">Separated link</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">One more separated link</a></li>
 								</ul>
 							</li>
 							<li>
@@ -72,7 +69,7 @@
 									<div class="form-group">
 										<input type="text" class="form-control" placeholder="Search">
 									</div>
-									<button type="submit" class="btn btn-default"></button>
+									<button type="submit" class="btn btn-primary"><span class="icon-search"></span></button>
 								</form>
 							</div>
 						</div>
@@ -109,27 +106,46 @@
 					<h1>NEWS & VIDEOS</h1>
 				</div>
 			</section>
-			<!-- <section class="content">
+			<section class="content-section">
 				<div class="container-fluid">
-					<div class="row">
-						<div class="col-sm-6 col-md-4">
-							<div class="thumbnail">
-								<div class="top-section">
-									<div class="image-holder" style="background-image: url(images/img-02.jpg);"></div>
-									<div class="date-holder">
-										<span>22 apr 2018</span>
-									</div>
-								</div>
-								<div class="caption">
-									<h5>BOCA BIOLISTICS ACHIEVES ISO 13485 ACCREDITATION!</h5>
-									<p>...</p>
-									<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-								</div>
+					<div class="heading">
+						<h3>WHAT'S BEEN HAPPENING LATELY AT BOCA BIO?</h3>
+					</div>
+					<div class="thumbnail lg-thumbnail">
+						<a class="top-section" href="#">
+							<div class="image-holder" style="background-image: url(images/img-03.jpg);"></div>
+							<div class="date-holder">
+								<span>22 apr 2018</span>
 							</div>
+						</a>
+						<div class="caption">
+							<h5><a href="#">BOCA BIOLISTICS INVITES PARTICIPANTS TO JOIN ZIKA VIRUS STUDY</a></h5>
+							<p>Boca Biolistics is inviting members of the public to participate in a study, collecting biological specimens to aide in researching the Zika virus. Boca Biolistics, LLC is looking for volunteers from three groups of people to participate: People who have symptoms of Zika virus, people who don’t have </p>
 						</div>
 					</div>
+					<div class="row" id="lazyload">
+					</div>
 				</div>
-			</section> -->
+			</section>
+
+			<section class="subscribe-section">
+				<div class="container-fluid">
+					<div class="holder">
+						<h2>NEWSLETTER SIGN UP </h2>
+						<form id="subscribe_form" method="post" action="#">
+							<div class="input-holder">
+								<div class="form-group">
+									<input class="form-control" type="text" id="subscribe_name" name="name" placeholder="First name">
+								</div>
+								<div class="form-group">
+									<input class="form-control" type="email" id="subscribe_email" name="email" placeholder=" Email Address">
+								</div>
+								<button class="btn btn-primary" type="submit" id="subscribe_submit">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
 		</main>
 		<!-- footer -->
 		<footer class="footer">
